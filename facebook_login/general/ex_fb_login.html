@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ex - Facebook Login in JavaScript</title>
+    <meta charset="UTF-8">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="./fb_util.js"></script>
+    <script type="text/javascript" src="./ex_fb_login.js"></script>
+</head>
+
+<body>
+    
+    <div>Please sign in if you want to use this service.</div>
+
+    <button
+        onclick="FB.login(respondLoginStatus, {scope: 'email, user_friends'})">
+        Sign in with Facebook
+    </button>
+
+</body>
+</html>

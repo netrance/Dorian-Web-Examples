@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Example - Marker on Google Map</title>
+</head>
+
+<body>
+    <div id="map" style="height: 300px;"></div>
+    <script>
+        function initMap() {
+            // Initial location of a map
+            var curLatLng = {
+                lat: 37.5545168,
+                lng: 126.9706483
+            };
+
+            // Creates a map object.
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: curLatLng,
+                scrollwheel: false,
+                zoom: 15
+            });
+
+            // Creates a marker on the map.
+            var marker = new google.maps.Marker({
+                position: curLatLng,
+                map: map,
+                title: 'Hello World!'
+            });
+        }
+    </script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=__YOUR_API_KEY__&callback=initMap"
+        async defer></script>
+</body>
+
+</html>

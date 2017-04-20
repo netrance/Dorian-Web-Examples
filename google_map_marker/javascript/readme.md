@@ -6,7 +6,5 @@ This example was created to share how to create a marker and put it on a Google 
 
 References
 ----------------
-- Adding a Google Map with a Marker to Your Website
- - https://developers.google.com/maps/documentation/javascript/adding-a-google-map?hl=en
-- Sample: Simple Markers
- - https://developers.google.com/maps/documentation/javascript/examples/marker-simple?hl=en
+- Adding a Google Map with a Marker to Your Website - https://goo.gl/WlfRBq
+- Sample: Simple Markers - https://goo.gl/qZLOlZ
